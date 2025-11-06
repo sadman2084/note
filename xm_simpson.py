@@ -1,3 +1,8 @@
+import numpy as np
+import matplotlib.pyplot as plt
+# Interval and segments
+def f(t):
+    return 200*np.log(140000 / (140000 - 2100*t)) - 9.8*t
 # Interval and segments
 a = 8
 b = 30
